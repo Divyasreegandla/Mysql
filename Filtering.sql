@@ -24,3 +24,6 @@ select * from actorlist where name like '%a%';
 select * from actorlist ORDER BY name DESC;
 select * from actorlist ORDER BY id DESC;
 select * from actorlist limit 2 offset 4;
+
+
+
