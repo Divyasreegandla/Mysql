@@ -44,3 +44,8 @@ select name,mark,dept,
  from students s1 where
 mark > 
 (select avg(mark) from students where dept=s1.dept);
+
+
+
+
+
